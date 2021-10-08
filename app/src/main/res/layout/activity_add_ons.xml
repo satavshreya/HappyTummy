@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddOns"
+    android:background="#EFECD2"
+    android:orientation="vertical">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#E1CCD4"
+        android:src="@drawable/beveragesgif" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="3.Add Ons:"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:fontFamily="casual"/>
+    <GridView
+        android:id="@+id/gridView3"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:numColumns="2"
+
+        />
+    <Button
+        android:id="@+id/CheckOutbtn"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:text="CheckOut >>>"
+        app:backgroundTint="#570909"
+        app:cornerRadius="20dp" />
+
+</LinearLayout>
